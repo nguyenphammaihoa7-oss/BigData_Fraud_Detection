@@ -5,9 +5,9 @@ This is our first-ever Big Data project. In this repository, we learned to use t
 
 1. Clone this repository to your local machine.
 2. Navigate to the `notebook` folder.
-3. Run the two notebook files to execute the machine learning and model training steps. (Run the EDA file first)
+3. Run the three notebook files to execute the machine learning and model training steps. (Run the EDA file first)
    
-*Note: Running these two files will generate the necessary outputs required for the project's data pipeline.*
+*Note: Running these three files will generate the necessary outputs required for the project's data pipeline.*
 
 ## Dataset
 
