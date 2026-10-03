@@ -1,0 +1,55 @@
+{
+  "feature_order": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "scale_pos_weight_used": 599.4761904761905,
+  "scaled_models": [
+    "Logistic Regression",
+    "MLP + SMOTE"
+  ],
+  "raw_models": [
+    "Random Forest",
+    "XGBoost",
+    "LightGBM"
+  ],
+  "ensemble": {
+    "type": "soft voting (trung bình không trọng số predict_proba)",
+    "members": [
+      "Logistic Regression",
+      "Random Forest",
+      "XGBoost",
+      "LightGBM",
+      "MLP + SMOTE"
+    ],
+    "note": "Để dự đoán lại: nạp scaler.joblib và 5 model joblib ở trên. Với dữ liệu mới X (giữ đúng thứ tự cột như feature_order), tính X_scaled = scaler.transform(X). Logistic Regression và MLP + SMOTE dự đoán trên X_scaled, Random Forest/XGBoost/LightGBM dự đoán trên X gốc. Lấy trung bình cộng 5 xác suất predict_proba(X)[:, 1] để ra xác suất gian lận của Voting Ensemble, so với ngưỡng 0.5 để ra nhãn dự đoán."
+  }
+}

@@ -1,0 +1,16 @@
+# --- Xử lý dữ liệu & AI ---
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+joblib
+xgboost
+
+# --- Hạ tầng & Kết nối Big Data ---
+confluent-kafka
+pymongo
+
+# --- Giao diện Dashboard & Trực quan hóa ---
+streamlit
+matplotlib
+seaborn

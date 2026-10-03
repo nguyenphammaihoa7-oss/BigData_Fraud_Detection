@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF4B4B"          # Đỏ neon (Cảnh báo)
+backgroundColor = "#0E1117"       # Đen xám mờ (Nền SOC)
+secondaryBackgroundColor = "#1E222D" # Xám đậm (Khung Card/Sidebar)
+textColor = "#FAFAFA"              # Trắng sáng (Chống mỏi mắt)
+font = "sans serif"
