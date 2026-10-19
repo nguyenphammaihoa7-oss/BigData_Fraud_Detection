@@ -1,5 +1,5 @@
 # Big Data Project
-This is our first-ever Big Data project. In this repository, we learned to use tools like **Apache Kafka** and **MongoDB**and trained an AI model with the **XGBoost** algorithm.
+This is our first-ever Big Data project. In this repository, we learned to use tools like **Apache Kafka** and **MongoDB** and trained an AI model with the **XGBoost** algorithm.
 
 ## Setup Instructions
 
